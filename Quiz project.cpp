@@ -25,7 +25,6 @@ int main()
     else
     {
         cout<<"Yor are fail"<<endl;
-        cout<<"you are pass"<<endl;
         cout<<"Do you want to play again y or n?"<<endl;
         cin>>playAgain;
         if(playAgain=='y'|| playAgain=='Y')
