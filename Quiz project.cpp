@@ -11,9 +11,9 @@ int main()
     if(finalresult>=6)
     {
         cout<<"you are pass"<<endl;
-        cout<<"Do you want to play again yes or no?"<<endl;
+        cout<<"Do you want to play again y or n?"<<endl;
         cin>>playAgain;
-        if(playAgain=='yes'|| playAgain=='YES')
+        if(playAgain=='y'|| playAgain=='Y')
         {
             playQuiz();
         }
@@ -26,9 +26,9 @@ int main()
     {
         cout<<"Yor are fail"<<endl;
         cout<<"you are pass"<<endl;
-        cout<<"Do you want to play again yes or no?"<<endl;
+        cout<<"Do you want to play again y or n?"<<endl;
         cin>>playAgain;
-        if(playAgain=='yes'|| playAgain=='YES')
+        if(playAgain=='y'|| playAgain=='Y')
         {
             goto play;
         }
@@ -79,7 +79,7 @@ int main()
             {
                 score=score+0;
             }
-            cout<<"3. Which of these won’t return any value?"<<endl;
+            cout<<"3. Which of these wonâ€™t return any value?"<<endl;
             cout<<"a. void b. null c. free d. empty"<<endl;
             cin>>option;
             if(option=='a' || option=='A')
